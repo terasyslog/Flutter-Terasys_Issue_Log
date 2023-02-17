@@ -7,7 +7,7 @@ const RESOURCES = {
 "assets/assets/images/logo-terasys.png": "c771215886fa7059c6bd378c41f0bf06",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "02213b6e93d28cb3703fc03fdf35ce5e",
+"assets/NOTICES": "41d5b3600bbb06e6231d361560f2dfa4",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/shaders/ink_sparkle.frag": "e4511b0b009568d3f36a3e14b0c145fd",
 "canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
@@ -20,9 +20,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "ff0364d5ffc596781a59ae0be5e6ec28",
-"/": "ff0364d5ffc596781a59ae0be5e6ec28",
-"main.dart.js": "b06fb7068c9c617e9185ca11c0b531de",
+"index.html": "03cf6bad3942a0a286648c2e17636a2b",
+"/": "03cf6bad3942a0a286648c2e17636a2b",
+"main.dart.js": "54e33afcd7aa866bd859bb4cc9ce2956",
 "manifest.json": "ca208577ca913f5c72917f444dcca2de",
 "version.json": "250727b583fef4b861810f4d1e4cf9ab"
 };
