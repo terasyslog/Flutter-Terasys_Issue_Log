@@ -1,0 +1,36 @@
+name: Flutter Web
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build Web
+    env:
+      my_secret: $
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: subosito/flutter-action@v1
+        with:
+          channel: 'dev'
+      - run: flutter config --enable-web
+      - run: flutter pub get
+      - run: flutter build web --release
+        # 1. change path which exist lib/main.dart
+        working-directory: ./issue_web
+      - run: |
+          # 2. change path to [existed lib/main.dart path]/build/web
+          cd issue_web/build/web
+          git init
+           # 3. change your email
+          git config --global user.email terasys.log@gmail.com
+          # 4. change your name
+          git config --global user.name terasyslog
+          git status
+          # 5. change your repository
+          git remote add origin https://$@github.com/terasyslog/Flutter-Terasys_Issue_Log.git 
+          git checkout -b gh-pages
+          git add --all
+          git commit -m "update"
+          git push origin gh-pages -f
