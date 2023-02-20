@@ -24,8 +24,8 @@ jobs:
       # Web deploy now is contained in build/web directory
       - run: |
           cd build
-          mkdir web-deploy
-          cd web-deploy
+          mkdir issue_web
+          cd issue_web
           #! Update with your Email ID associated with GitHub
           git config --global user.email terasys.log@gmail.com
           #! Update with your username associated with GitHub
